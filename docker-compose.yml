@@ -11,7 +11,7 @@ services:
   resume:
     image: nginx:latest
     ports:
-    - "8081:80"
+    - "8080:80"
     volumes:
     - "/home/scarrasco/Git/resume/dist:/usr/share/nginx/html:ro"
 
