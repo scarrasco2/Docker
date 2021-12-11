@@ -1,0 +1,4 @@
+flask
+redis
+nginx
+haproxy
