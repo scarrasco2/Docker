@@ -15,12 +15,12 @@ services:
     volumes:
     - "/home/scarrasco/Git/resume/dist:/usr/share/nginx/html:ro"
 
-  dashbaord:
+  dashboard:
     image: nginx:latest
     ports: 
     - "8081:80"
     volumes:
-    - "/home/scarrasco/Git/dashbaord/dist:/usr/share/nginx/html:ro"
+    - "/home/scarrasco/Git/dashboard/src:/usr/share/nginx/html:ro"
     
   blog:
     image: nginx:latest
